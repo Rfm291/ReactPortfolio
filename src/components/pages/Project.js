@@ -9,7 +9,7 @@ import {
   CarouselCaption
 } from 'reactstrap';
 
-const Project = (props) => {
+let Project = (props) => {
   const [activeIndex, setActiveIndex] = useState(0);
   const [animating, setAnimating] = useState(false);
 
@@ -43,6 +43,7 @@ const Project = (props) => {
       
 
       <div className="container bg-dark" background="black">        
+        <a href={item.githubUrl}><img className="d-block w-100" src={item.imgurl} alt=""/></a>
         <a href={item.liveUrl}><CarouselCaption className="text-success caption-text" captionText={item.description} captionHeader={item.name} /></a>
       </div>
         

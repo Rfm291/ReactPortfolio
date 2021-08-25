@@ -4,7 +4,7 @@ import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import Navigation from '../Navigation/Navigation';
 
-import myData from '../../myData';
+import Data from '../../Data';
 
 import About from '../pages/About/About';
 import Project from '../pages/Project';
@@ -23,7 +23,7 @@ export default function Container() {
       return <About />;
     }
     if (currentPage === 'Project') {
-      return <Project data={myData}/>;
+      return <Project data={Data}/>;
     }
     return <About />;
   };
@@ -32,7 +32,7 @@ export default function Container() {
 
   return (
     <div className="bg-dark text-white content">
-      <Header data={myData}/>
+      <Header data={Data}/>
       <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
       <Footer />

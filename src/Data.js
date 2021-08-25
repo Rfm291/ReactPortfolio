@@ -1,8 +1,8 @@
-let myData = {
+let Data = {
     "name": "Richard Mercado",
     "role": "Developer",
-    "linkedinId":"Richard-Mercado",
-    "portfolio":[
+    "linkedinId":"richard-mercado-3babb1207",
+    "project":[
       {
         "id":1,
         "name":"Weather Dashboard",
@@ -42,4 +42,4 @@ let myData = {
     ]
   }
   
-export default myData;
+export default Data;

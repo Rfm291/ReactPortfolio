@@ -2,7 +2,6 @@ import React from 'react';
 
 import "./About.css";
 
-
 export default function About() {
   return (
     <div className="container-fluid about">
@@ -13,6 +12,12 @@ export default function About() {
       Columbia University Coding Bootcamp Graduate
       </p>
       <div class="row align-items-start">
+        <div class="col">
+        
+        </div>
+        <div class="col">
+        <img src="./images/Self.jpeg" className="img-responsive" height="300px" alt=""/>
+        </div>
         <div class="col">
         </div>
       </div>
