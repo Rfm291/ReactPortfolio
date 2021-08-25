@@ -23,7 +23,7 @@ export default function Container() {
       return <About />;
     }
     if (currentPage === 'Project') {
-      return <Project data={Data}/>;
+      return <Project data={ Data }/>;
     }
     return <About />;
   };

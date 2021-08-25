@@ -42,7 +42,7 @@ let Project = (props) => {
 
       
 
-      <div className="container bg-dark" background="black">        
+      <div className="container bg-dark" background="grey">        
         <a href={item.githubUrl}><img className="d-block w-100" src={item.imgurl} alt=""/></a>
         <a href={item.liveUrl}><CarouselCaption className="text-success caption-text" captionText={item.description} captionHeader={item.name} /></a>
       </div>
@@ -58,7 +58,7 @@ let Project = (props) => {
           `.custom-tag {
               max-width: 100%;
               height: 500px;
-              background: black;
+              background: white;
             }
           .carousel-item, .carousel-item.active {
               align-items:center;
